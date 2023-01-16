@@ -1,0 +1,94 @@
+.maintext {
+    font-size:70px;
+    margin: 60px 0;
+}
+.containercards{
+    max-width:1400px;
+    height: 100%;
+    margin: auto;
+}
+.containercards h2{
+    font-size: 30px;
+    font-weight: 100;
+
+    margin: 30px 0;
+    
+}
+
+/* cards */
+.card {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 400px;
+    height:250px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-color: aqua;
+    background-size: cover;
+}
+
+.info {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(37, 37, 37, 0.637);
+    transform: translateY(150%) translateY(-88px) translateZ(0);
+    transition: transform 0.5s ease-out;
+    border-radius: 16px;
+    text-align: center;
+    
+}
+
+
+
+.card:hover .info,
+.card:hover .info:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.title {
+    margin: 0;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+
+.description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3em;
+    
+}
+
+
+
+.links{
+    width:130px;
+    height: 30px;
+    border: none;
+    margin: 0px 20px;
+    background-color: white;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+    
+}
+
+
+

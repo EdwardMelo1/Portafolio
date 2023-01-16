@@ -1,0 +1,124 @@
+/* header */
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: #fd4242ec;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)),url(./img/Fondomus.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* mani */
+.picture{
+    color: rgb(255, 255, 255);
+    *width: 90%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+
+}
+.main-up h1{
+    font-size: 80px;
+    font-weight: 600;
+    
+    
+
+    margin: 20px;
+    text-align: center;
+}
+span{   
+    color:#f74f4f;
+    font-weight: 600;
+}
+
+
+/* about */
+.container-about{
+    
+    margin: 0 auto;
+    display: inherit;
+    max-width: 1400px;
+    height: 100%;
+}
+.container-about h1{
+    font-size: 70px;
+    margin: 60px 0;
+}
+.about{
+    display: flex;
+}
+.boxabout{
+    width: 700px;
+    height: 500px;
+    
+}
+.boxaboutmy {
+    width: 700px;
+    height: 500px;
+    
+}
+.boxabout h2{
+    font-size: 50px;
+}
+.boxabout h3{
+    font-size: 40px;
+    font-weight: 100;
+}
+.boxaboutmy h2{
+    font-size: 50px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgskills{
+    margin: 10px 40px;
+    text-align: center;
+}
+.imgskills h3{
+    font-weight: 600;
+}
+.imgskills img{
+    height: 150px;
+    height: 150px;
+    
+}
+/* portfolio */
+
+
+/* contact */
+
+
+
+/* footer */
+.footer{
+    background-color: #ff5959;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+}
+
