@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
           <div className='contacticons'>
               <div className='linkcontact'>
-                <a href="">
+                <a href="https://www.instagram.com/a.lejandro.o_/">
                   <img className='gmail' src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="" />
                 </a>
                 <h1>
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
               <div className='linkcontact'>
                 <a href="https://t.me/Edwardmelo">
-                  
+
                   <img className='telegram' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="" />
                 </a>
                 <h1>
