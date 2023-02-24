@@ -3,8 +3,8 @@ import React from 'react'
 const about = () => {
   return (
     <>
-    <section>
-        <div className='container-about'>
+    <section id='section_1'>
+        <div className='container-about' >
                     <h1>About me </h1>
                     <div className='about'>
                         <div className='boxabout'>

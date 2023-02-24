@@ -6,7 +6,7 @@ import { TbWorld } from 'react-icons/tb';
 const Portfolio = () => {
   return (
     <>
-    <section className='containercards'>
+    <section className='containercards' id='section_2'>
       <h1 className='maintext'>Portfolio</h1>
       <h2>Here you can see the projects I have worked on.</h2>
         <div className='cards'>
