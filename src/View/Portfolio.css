@@ -32,6 +32,21 @@
     background-color: aqua;
     background-size: cover;
 }
+#card1 {
+    background-image: url("./img/Paginahoja.png");
+}
+#card2 {
+    background-image: url("./img/pagebadbunny.png");
+}
+#card3 {
+    background-image: url("./img/sabuja.png");
+}
+#card4 {
+    background-image: url("./img/zombies.png");
+}
+#card5 {
+    background-image: url("./img/Respaturante.png");
+}
 
 .info {
     position: relative;
@@ -89,7 +104,7 @@
 .links a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     
     
 }
