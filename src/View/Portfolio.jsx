@@ -11,6 +11,51 @@ const Portfolio = () => {
       <h1 className='maintext'>Portfolio</h1>
       <h2>Here you can see the projects I have worked on.</h2>
         <div className='cards'>
+        <div>
+            <div class='card' id='card6'>
+
+              <div class='info'>
+
+                  <h1 class='title'>Extinción</h1>
+                  <p class='description'>Caso práctico desarrollado para el curso de UX design de google </p>
+                  <button className='links'><a href="https://www.figma.com/proto/9C0Jz9AHV6iLKVuNrzWcTr/Untitled?node-id=52-482&scaling=min-zoom&page-id=52%3A481"><TbWorld/>Prototipo</a></button>
+                  <button className='links'><a href="https://www.figma.com/file/9C0Jz9AHV6iLKVuNrzWcTr/Untitled?node-id=52%3A482&t=0lj1lZnzYjSJWLuM-1"><TbWorld/>Maquetas</a></button>
+                  <button className='links'><a href="https://drive.google.com/file/d/17kROoY_8801J9GIonpzPxcRDGRQVeAaV/view"><TbWorld/> caso practico</a></button>
+              
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class='card' id='card7'>
+
+              <div class='info'>
+
+                  <h1 class='title'>Fundacion</h1>
+                  <p class='description'> Caso práctico desarrollado para el curso de UX design de google</p>
+                  <button className='links'><a href="https://www.figma.com/proto/bvaERMAGbKFLZX2TG5JjVP/Untitled?node-id=39-2&scaling=scale-down&page-id=36%3A2&starting-point-node-id=39%3A2"><TbWorld/>Prototipo</a></button>
+                  <button className='links'><a href="https://www.figma.com/file/bvaERMAGbKFLZX2TG5JjVP/Untitled?node-id=39%3A2&t=HEd5iCb80PGaFRSV-1"><TbWorld/>Maquetas</a></button>
+                  <button className='links'><a href="https://drive.google.com/file/d/1_4693gUTojrRn5k-0HC1jnz2S_2EctdE/view"><TbWorld/> caso practico</a></button>
+              
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class='card' id='card8'>
+
+              <div class='info'>
+
+                  <h1 class='title'>Tienda de musica</h1>
+                  <p class='description'>Caso práctico desarrollado para el curso de UX design de google </p>
+                  <button className='links'><a href="https://www.figma.com/proto/QczA9THFRRO6VRhwCzONc6/Untitled?node-id=53-3&scaling=scale-down&page-id=53%3A2&starting-point-node-id=53%3A3"><TbWorld/>Prototipo</a></button>
+                  <button className='links'><a href="https://www.figma.com/file/QczA9THFRRO6VRhwCzONc6/Untitled?node-id=53%3A2&t=0lj1lZnzYjSJWLuM-1"><TbWorld/>Maquetas</a></button>
+                  <button className='links'><a href="https://drive.google.com/file/d/1B2njSVxf3mOIAe1ys4o5fEitD1jHldN1/view"><TbWorld/> caso practico</a></button>
+              
+              </div>
+
+            </div>
+          </div>
           <div>
             <div className='card' id='card1'>
                 
@@ -81,20 +126,8 @@ const Portfolio = () => {
 
             </div>
           </div>
-          <div>
-            <div class='card' id='card6'>
-
-              <div class='info'>
-
-                  <h1 class='title'>Title</h1>
-                  <p class='description'> </p>
-                  <button className='links'><a href="https://www.youtube.com/watch?v=lBZc-Osw-Pc"><TbWorld/>Website</a></button>
-                  <button className='links'><a href="https://www.youtube.com/watch?v=UrvPjYViDTQ&t=660s"><AiFillGithub/>Repositorio</a></button>
-              
-              </div>
-
-            </div>
-          </div>
+          
+          
           
         </div>
     </section>

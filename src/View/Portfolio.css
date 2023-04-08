@@ -47,6 +47,15 @@
 #card5 {
     background-image: url("./img/Respaturante.png");
 }
+#card6 {
+    background-image: url("./img/capturanimales.png");
+}
+#card7 {
+    background-image: url("./img/Capturaadopcion.png");
+}
+#card8 {
+    background-image: url("./img/Capturainstrumentos.png");
+}
 
 .info {
     position: relative;
